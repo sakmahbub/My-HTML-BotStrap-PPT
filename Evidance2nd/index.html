@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div style="width:500px; margin: 0 auto; background: chartreuse">
+<form action="display.html" style="padding: 45px;" >
+
+
+
+
+      <label>Full Nmae:</label>
+      <input type="text" name="FullName" required="required"/><br/>
+      
+      
+       <label>Gender:</label>
+       <select name="Gender">
+       <option>Select the gender</option>
+       <option>Male</option>
+       <option>Female</option>
+       </select> <br/>
+       
+       <label>Round:</label>
+       <select name="Round">
+       <option>Select the round</option>
+       <option>Round-32</option>
+       <option>Round-33</option>
+       <option>Round-34</option>
+       <option>Round-35</option>
+       <option>Round-36</option>
+       <option>Round-37</option>
+       <option>Round-38</option>
+       <option>Round-39</option>
+       </select> <br/>
+
+
+        <label>Completed Sub:</label>
+        
+       HTML: <input type="checkbox" name="Sub" value="HTML"/>
+       PPT: <input type="checkbox" name="Sub" value="PPT"/>
+       JS: <input type="checkbox" name="Sub" value="JS"/>
+       
+       <br/><br/><br/>
+            
+         <input type="submit"  value="submit" />
+         <input type="reset"  value="Clean Form" />
+
+</form>
+</div>
+       <script>
+            function sendData() {
+                var value1 = "value1";
+                var value2 = "value2";
+                var value3 = "value3";
+                var value4 = "value4";
+                var value5 = "value5";
+                var allValue = "?para1= " + value1 + "&para2= " + value2 + "&para3= " + value3 + "&para4= " + value4 + "&para5= " + value5;
+                window.location.href = "display.html" + allValue;
+            }
+        </script> 
+</body>
+</html>

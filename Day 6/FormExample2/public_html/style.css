@@ -1,0 +1,68 @@
+#maincontainer{
+    width: 80%;
+    height: auto;
+    background-color: whitesmoke;
+    min-height: 400px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    height: auto;
+    background-color: activecaption;
+    text-align: center;
+    min-height: 50px;
+    line-height: 1.5;
+}
+#body{
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+
+}
+#lbody{
+    width: 25%;
+    height: auto;
+    min-height: 350px;
+    background: #ccc;
+    float: left;
+
+}
+#rbody{
+    width: 100%;
+    height: auto;
+    min-height: 350px;
+    background: #ccc;
+}
+
+.form-container{
+    width: 100%;
+    height: auto;
+}
+
+.labels{
+    width: 25%;
+    height: auto;
+    float: left;
+}
+.fields{
+    
+   width: 75%;
+   height: auto;
+   float: left;
+}
+
+input, select, textArea,p, label{
+    margin: 2px;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+    background-color: black;
+    color: white;
+}
+marquee{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}

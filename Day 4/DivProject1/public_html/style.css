@@ -1,0 +1,17 @@
+#maincontainer{
+    height: 400px;
+    width: 80%;
+    background: #B3B7BB;
+    margin: 0 auto;
+}
+
+
+
+#headercontainer{
+    
+   height: 80px;
+    width: 100%;
+    background: red;
+    margin: 0 auto; 
+    
+}

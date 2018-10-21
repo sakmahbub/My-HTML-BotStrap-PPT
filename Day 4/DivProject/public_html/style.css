@@ -1,0 +1,73 @@
+#maincontainer{
+    height: 400px;
+    width: 80%;
+    background: #B3B7BB;
+    margin: 0 auto;
+}
+
+#headercontainer{
+   height: 80px;
+    width: 100%;
+    background: #ACDDE6;
+    margin: 0 auto; 
+    
+}
+
+#bodycontainer{
+   height: 220px;
+    width: 100%;
+    background: blue;
+    margin: 0 auto; 
+    
+}
+
+#body-left{
+    
+   height: 220px;
+    width: 25%;
+    background: #808080;
+    float: Left; 
+    
+}
+
+#body-mid{
+    
+   height: 220px;
+    width: 50%;
+    background: orange;
+    float: Left; 
+    
+}
+
+#body-right{
+    
+   height: 220px;
+    width: 25%;
+    background: gray;
+    float: left;
+    
+}
+
+#footercontainer{
+   height: 50px;
+    width: 100%;
+    background: #008000;
+    margin: 0 auto; 
+    
+}
+
+.footerbottom{
+    
+   width: 9.99%;
+       float: left;
+     
+}
+
+#footertop{
+   height: 50px;
+    width: 100%;
+    background: blue;
+    margin: 0 auto; 
+    
+}
+

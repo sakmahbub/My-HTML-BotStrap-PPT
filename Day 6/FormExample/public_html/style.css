@@ -1,0 +1,74 @@
+#container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    min-height: 350px;
+    background-color: red;
+}
+
+#header{
+    
+    height: 80px;
+    width: 100%;
+    background: royalblue;
+    margin: 0 auto; 
+    text-align: center;
+    line-height: 2.5;
+}
+
+#body{
+   height: auto;
+    width: 100%;
+    background: goldenrod;
+    min-height: 500px 
+    
+    
+}
+#body-left{
+    height: auto;
+    width: 20%;
+    background: gray;
+    float: left;
+    min-height: 500px
+}
+#body-right{
+    
+    height: auto;
+    width: 80%;
+    background: wheat;
+    float: left;
+    min-height: 500px
+}
+
+#footer{
+    
+    height: 70px;
+    width: 100%;
+    background: #ACDDE6;
+}
+
+#form-container{
+    
+    width: 100%;
+    height: auto;
+    
+}
+
+.labels{
+    height: auto;
+    width: 25%;
+    float: left;
+}
+.fields{
+    
+    height: auto;
+    width: 75%;
+    float: left;
+}
+input, textArea, select, label{
+ margin: 2px;
+}
+
+fieldset{
+    margin: 10px;
+}
